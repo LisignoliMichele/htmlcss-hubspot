@@ -143,6 +143,9 @@ font-weight: 300;
 .banner_lyric p{
   color: #33475b;
 }
+.banner_lyric p{
+  line-height: 25px;
+}
 .banner_lyric a{
   text-decoration: none;
   color: #ffffff;
@@ -163,3 +166,32 @@ font-weight: 300;
 }
     /* /BANNER */
 /* /HEADER */
+/* SECTION_1 */
+.section_1{
+  background-color: #f4f9fd;
+}
+.intro{
+  width: 55%;
+  margin: auto;
+  padding-top: 30px;
+}
+.intro *{
+  text-align: center;
+}
+.photo_intro img{
+  width: 30%
+}
+.intro h3{
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.intro h3,
+.intro p{
+  color: #33475b;
+}
+.intro p{
+  line-height: 25px;
+}
+
+/* /SECTION_1 */
