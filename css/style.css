@@ -23,7 +23,8 @@ body{
 }
 .small_button{
   padding: 6px;
-  background-color: #ff7a59;;
+  background-color: #ff7a59;
+  border: 1px solid #ff7a59;
   border-radius: 5px;
 }
 .empty_button{
@@ -91,8 +92,8 @@ body{
 .main_header_nav li{
 list-style: none;
 display: inline-block;
-margin-top:30px;
-margin-bottom: 30px;
+margin-top:20px;
+margin-bottom: 20px;
 }
 .main_header_nav a{
 color: #33475b;
@@ -125,6 +126,40 @@ font-weight: 300;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  position: relative;
+}
+.banner_lyric{
+  padding-top: 2%;
+}
+.banner_lyric *{
+  max-width: 35%;
+  margin: 35px 0;
+}
+.banner_lyric h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.banner_lyric h1,
+.banner_lyric p{
+  color: #33475b;
+}
+.banner_lyric a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+}
+.banner_lyric small{
+  display: block;
+}
+.spacer{
+  position: absolute;
+  height: 72px;
+  width: 100%;
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  bottom: 0;
 }
     /* /BANNER */
 /* /HEADER */
