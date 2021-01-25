@@ -86,7 +86,7 @@ body{
     /* /TOP LINE */
     /* MAIN LINE */
 .main_header{
-  margin: 30px 0;
+  margin: 15px 0;
 }
 .main_header_nav li{
 list-style: none;
@@ -117,4 +117,14 @@ font-weight: 300;
   margin-right: 15px;
 }
     /* /MAIN LINE */
+    /* BANNER */
+.banner{
+  height: 600px;
+  background-color: #fff4ec;
+  background-image: url("../img/jumbotron.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+    /* /BANNER */
 /* /HEADER */
