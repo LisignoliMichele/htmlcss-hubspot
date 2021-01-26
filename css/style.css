@@ -120,7 +120,7 @@ font-weight: 300;
     /* /MAIN LINE */
     /* BANNER */
 .banner{
-  height: 600px;
+  height: 700px;
   background-color: #fff4ec;
   background-image: url("../img/jumbotron.png");
   background-size: contain;
@@ -157,7 +157,7 @@ font-weight: 300;
 }
 .spacer{
   position: absolute;
-  height: 72px;
+  height: 84px;
   width: 100%;
   background-color: #afebe4;
   border-top: 3px solid #33475b;
@@ -167,6 +167,7 @@ font-weight: 300;
     /* /BANNER */
 /* /HEADER */
 /* SECTION_1 */
+    /* SECTION INTRO */
 .section_1{
   background-color: #f4f9fd;
 }
@@ -193,5 +194,29 @@ font-weight: 300;
 .intro p{
   line-height: 25px;
 }
+    /* /SECTION INTRO */
+    /* SECTION CONTENT */
+.box{
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: -1px -1px 11px rgba(0, 0, 0, 0.1);
+}
+.top_box{
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+.center_box{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.col{
+  width: 30%;
+  height: 400px;
+  float: left;
+  margin-bottom: 30px;
+}
+    /* /SECTION CONTENT */
 
 /* /SECTION_1 */
