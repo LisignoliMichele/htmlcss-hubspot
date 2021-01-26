@@ -34,6 +34,16 @@ body{
   background-color: #ff7a59;
   border-radius: 5px;
 }
+p{
+  line-height: 25px;
+}
+h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+small{
+  display: block;
+}
 /* /WHOLE PAGE */
 /* HEADER */
     /* TOP LINE */
@@ -123,31 +133,30 @@ font-size: 20px;
   background-position: bottom right;
   position: relative;
 }
-.banner_lyric{
-  padding-top: 2%;
-}
 .banner_lyric *{
-  max-width: 35%;
-  margin: 35px 0;
+  max-width: 50%;
 }
 .banner_lyric h1{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
+  padding-top: 5%;
+  margin-bottom: 30px;
+}
+.banner_lyric p{
+margin-bottom: 50px;
 }
 .banner_lyric h1,
 .banner_lyric p{
   color: #33475b;
 }
-.banner_lyric p{
-  line-height: 25px;
-}
 .banner_lyric a{
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
+  margin-top: 30px;
 }
 .banner_lyric small{
-  display: block;
+  margin-top: 40px;
 }
 .spacer{
   position: absolute;
@@ -175,19 +184,14 @@ font-size: 20px;
   text-align: center;
 }
 .photo_intro img{
-    max-height: 220px;
+  max-height: 220px;
 }
 .intro h3{
-  font-weight: 600;
-  font-size: 35px;
   margin-bottom: 20px;
 }
 .intro h3,
 .intro p{
   color: #33475b;
-}
-.intro p{
-  line-height: 25px;
 }
     /* /SECTION INTRO */
     /* SECTION BOXES */
@@ -205,7 +209,7 @@ font-size: 20px;
 .col{
   width: 30%;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
   text-align: center;
 }
 .center_box{
@@ -226,9 +230,6 @@ font-size: 20px;
 .box a{
   color: white;
   text-decoration: none;
-}
-.box p{
-  line-height: 30px;
 }
 .box h5{
   font-weight: 600;
@@ -291,3 +292,49 @@ font-size: 20px;
 }
     /* COLS */
 /* /SECTION_1 */
+/* SECTION_2 */
+.section_2{
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+  text-align: center;
+}
+.section_2 h3{
+  padding: 30px 0;
+}
+.table{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.section_2 h5{
+  font-size: 45px;
+  margin: 15px;
+}
+.section_2 img{
+  margin-top: 20px;
+}
+.section_2 small{
+  margin-bottom: 20px;
+}
+.section_2 .row > *{
+  width: 25%;
+  float: left;
+}
+.section_2 .row > *:not(.cell:last-of-type){
+  border-right: 1px solid #ffffff;
+}
+.section_2 .bottom_{
+  border-top: 1px solid #ffffff;
+}
+.cell{
+  text-align: center;
+}
+.cell h5::after{
+  content: "+";
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: 300;
+  vertical-align: 6px;
+}
+
+
+/* /SECTION_2 */
