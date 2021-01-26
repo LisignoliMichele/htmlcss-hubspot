@@ -13,16 +13,13 @@ body{
   width: 80%;
   margin: auto;
 }
-.uppercase{
-  text-transform: uppercase;
-}
 .clearfix::after{
   content:"";
   display: block;
   clear:both;
 }
 .small_button{
-  padding: 6px;
+  padding: 6px 12px;
   background-color: #ff7a59;
   border: 1px solid #ff7a59;
   border-radius: 5px;
@@ -33,7 +30,7 @@ body{
   border-radius: 5px;
 }
 .big_button{
-  padding: 15px;
+  padding: 15px 30px;
   background-color: #ff7a59;
   border-radius: 5px;
 }
@@ -125,7 +122,7 @@ font-weight: 300;
   background-image: url("../img/jumbotron.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: bottom right;
   position: relative;
 }
 .banner_lyric{
@@ -175,12 +172,13 @@ font-weight: 300;
   width: 55%;
   margin: auto;
   padding-top: 30px;
+  margin-bottom: 50px;
 }
 .intro *{
   text-align: center;
 }
 .photo_intro img{
-  width: 30%
+  width: 25%;
 }
 .intro h3{
   font-weight: 600;
@@ -195,7 +193,7 @@ font-weight: 300;
   line-height: 25px;
 }
     /* /SECTION INTRO */
-    /* SECTION CONTENT */
+    /* SECTION BOXES */
 .box{
   background-color: #ffffff;
   border-radius: 10px;
@@ -203,7 +201,6 @@ font-weight: 300;
 }
 .top_box{
   width: 100%;
-  height: 60px;
   margin-top: 30px;
   margin-bottom: 5%;
 }
@@ -217,6 +214,76 @@ font-weight: 300;
   float: left;
   margin-bottom: 30px;
 }
-    /* /SECTION CONTENT */
+.box img{
+  width: 65%;
+}
+.box .photo{
+  margin-bottom: 30px;
+}
+.box{
+  color: #33475b;
+}
+.box h4{
+  font-weight: 600;
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+.box a{
+  color: white;
+  text-decoration: none;
+}
+.box p{
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.box h5{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.box li::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  font-weight: 900;
+  color: #ff7a59;
+  margin-right: 10px;
+}
 
+    /* BOX_1 * */
+.top_box{
+ padding: 60px 180px;
+}
+.top_box .right_side,
+.top_box .left_side{
+  float: left;
+}
+.top_box .left_side{
+  width: 20%;
+}
+.top_box .right_side{
+  width: 80%;
+}
+.top_box li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.top_box h5 {
+   width: 100%;
+   text-align: left;
+   border-bottom: 1px solid #33475b;
+   line-height: 1px;
+   margin: 20px -10px 30px;
+}
+ .top_box span {
+    background:#ffffff;
+    padding:0 10px;
+}
+    /* /BOX_1 */
+    /* BOX_2 */
+
+    /* /BOX_2 */
+    /* BOX_3 */
+
+    /* /BOX_3 */
+    /* /SECTION BOXES */
 /* /SECTION_1 */
