@@ -310,7 +310,7 @@ color: #ffffff;
   float: left;
 }
 .cell{
-  padding: 30px;
+  padding: 20px;
 }
 .section_2 .row > *:not(.cell:last-of-type){
   border-right: 1px solid #ffffff;
