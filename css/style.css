@@ -37,12 +37,18 @@ body{
 }
 a{
   color: #33475b;
+  font-size: 20px;
+  text-decoration: none;
 }
 p{
   line-height: 25px;
 }
 h3{
   font-size: 40px;
+  font-weight: 600;
+}
+h5{
+  font-size: 45px;
   font-weight: 600;
 }
 small{
@@ -60,11 +66,6 @@ small{
   display: inline-block;
   margin-top:30px;
   margin-bottom: 30px;
-}
-.top_header a{
-
-  text-decoration: none;
-  font-size: 20px;
 }
 .top_header li:not(li:last-child){
   margin-right: 15px;
@@ -105,10 +106,6 @@ display: inline-block;
 margin-top:20px;
 margin-bottom: 20px;
 }
-.main_header_nav a{
-text-decoration: none;
-font-size: 20px;
-}
 .main_header .logo{
   float: left;
 }
@@ -137,7 +134,7 @@ font-size: 20px;
   position: relative;
 }
 .banner_lyric *{
-  max-width: 50%;
+  max-width: 40%;
 }
 .banner_lyric h1{
   font-size: 50px;
@@ -149,9 +146,7 @@ font-size: 20px;
 margin-bottom: 50px;
 }
 .banner_lyric a{
-  text-decoration: none;
   color: #ffffff;
-  font-size: 20px;
   margin-top: 30px;
 }
 .banner_lyric small{
@@ -222,11 +217,9 @@ margin-bottom: 50px;
   margin-bottom: 25px;
 }
 .box a{
-  color: white;
-  text-decoration: none;
+  color: #ffffff;
 }
 .box h5{
-  font-weight: 600;
   text-transform: uppercase;
   font-size: 20px;
 }
@@ -284,7 +277,8 @@ margin-bottom: 50px;
   margin-top: 80px;
   margin-bottom: 60px;
 }
-    /* COLS */
+    /* /COLS */
+    /* /SECTION BOXES */
 /* /SECTION_1 */
 /* SECTION_2 */
 .section_2{
@@ -302,7 +296,6 @@ color: #ffffff;
   margin-bottom: 30px;
 }
 .section_2 h5{
-  font-size: 45px;
   margin: 15px;
 }
 .section_2 img{
@@ -333,27 +326,27 @@ color: #ffffff;
 }
 /* /SECTION_2 */
 /* SECTION 3 */
-.section_3_container{
+    /* SECTION3_TOP */
+.section_3 .section_top{
   width: 80%;
   margin: auto;
   padding-top: 60px;
 }
-.section_3_container .box_left{
+.section_3 .section_top .box_left{
   float: left;
   width: 30%;
 }
-.section_3_container .box_right{
+.section_3 .section_top .box_right{
   float: right;
   width: 70%;
 }
-.section_3_container h5{
-  font-size: 45px;
+.section_3 .section_top h5{
   margin-bottom: 20px;
 }
-.section_3_container p span{
+.section_3 .section_top p span{
   font-weight: 600;
 }
-.section_3_container img{
+.section_3 .section_top img{
   max-width: 150px;
   vertical-align: middle;
   margin-left: 30px;
@@ -363,5 +356,36 @@ color: #ffffff;
   text-align: right;
   margin-bottom: 20px;
 }
-
+    /* /SECTION3_TOP */
+    /* SECTION3_BOTTOM */
+.section_3 .section_bottom{
+  margin-top: 40px;
+}
+.section_3 .section_bottom .left_side{
+  float: left;
+  width: 40%;
+}
+.section_3 .section_bottom .right_side{
+  float: left;
+  width: 60%;
+  text-align: right;
+}
+.section_3 .section_bottom img{
+  max-width: 40%;
+}
+.section_3 .section_bottom h3{
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.section_3 .section_bottom p{
+margin-bottom: 50px;
+}
+.section_3 .section_bottom a{
+  color: #ffffff;
+  margin-top: 30px;
+}
+.section_3 .section_bottom small{
+  margin-top: 40px;
+}
+    /* /SECTION3_BOTTOM */
 /* /SECTION 3 */
