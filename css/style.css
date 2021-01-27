@@ -37,15 +37,18 @@ body{
 }
 a{
   color: #33475b;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
+  font-weight: 500;
 }
 p{
+  font-size: 18px;
   line-height: 25px;
+  font-weight: 500;
 }
 h3{
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
 }
 h5{
   font-size: 45px;
@@ -306,6 +309,9 @@ color: #ffffff;
   width: 25%;
   float: left;
 }
+.cell{
+  padding: 30px;
+}
 .section_2 .row > *:not(.cell:last-of-type){
   border-right: 1px solid #ffffff;
 }
@@ -418,7 +424,7 @@ footer *{
   color: #32495b;
   border: none;
   font-size: 12px;
-  padding: 9px 5px;
+  padding: 12px 10px;
   margin-top: 100px;
 }
 .ContactUs_button{
