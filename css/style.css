@@ -399,7 +399,7 @@ footer *{
 }
   /* FOOTER TOP */
 .footer_top{
-  padding-top: 40px;
+  padding: 40px 0 60px 0;
   }
 .footer_top .links_col{
   float:left;
@@ -430,5 +430,27 @@ footer *{
 }
   /* /FOOTER TOP */
   /* FOOTER BOTTOM */
+  .footer_bottom .languages li{
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .footer_bottom .languages{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main_footer{
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .main_footer .left_side{
+    float: left;
+  }
+  .main_footer .right_side{
+    float: right;
+  }
+  .main_footer .right_side li{
+    display: inline-block;
+    margin-left: 20px;
+  }
   /* FOOTER BOTTOM */
 /* FOOTER */
