@@ -24,16 +24,19 @@ body{
   background-color: #ff7a59;
   border: 1px solid #ff7a59;
   border-radius: 5px;
+  display: inline-block;
 }
 .empty_button{
   padding: 6px 20px;
   border: 1px solid #ff7a59;
   border-radius: 5px;
+  display: inline-block;
 }
 .big_button{
   padding: 20px 50px;
   background-color: #ff7a59;
   border-radius: 5px;
+  display: inline-block;
 }
 a{
   color: #33475b;
@@ -73,7 +76,7 @@ li{
   margin-bottom: 30px;
 }
 .top_header li:not(li:last-child){
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .top_header_left li:first-child{
   padding-right: 20px;
@@ -146,17 +149,15 @@ margin-bottom: 20px;
   padding-top: 5%;
   margin-bottom: 30px;
 }
-.banner_lyric p{
-margin-bottom: 50px;
-}
-.banner_lyric a{
+.banner_lyric .big_button{
   color: #ffffff;
-  margin-top: 30px;
-}
-.banner_lyric small{
   margin-top: 40px;
 }
-.spacer{
+.banner_lyric small{
+  margin-top: 30px;
+}
+.spacer::after{
+  content: "";
   position: absolute;
   height: 84px;
   width: 100%;
@@ -272,7 +273,7 @@ margin-bottom: 50px;
 }
 .col ul{
   margin-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .col hr{
   margin-top: 80px;
@@ -312,7 +313,7 @@ color: #ffffff;
 .cell{
   padding: 20px;
 }
-.section_2 .row > *:not(.cell:last-of-type){
+.section_2 .cell:not(.cell:last-of-type){
   border-right: 1px solid #ffffff;
 }
 .section_2 .bottom_{
